@@ -5,37 +5,47 @@
     {
       "src": "/images/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "purpose": "maskable"
     },
     {
       "src": "/images/favicon-16x16.png",
       "type": "image/png",
-      "sizes": "16x16"
+      "sizes": "16x16",
+      "purpose": "maskable"
     },
     {
       "src": "/images/favicon-32x32.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "32x32",
+      "purpose": "maskable"
     },
     {
       "src": "/images/favicon-96x96.png",
       "type": "image/png",
-      "sizes": "96x96"
+      "sizes": "96x96",
+      "purpose": "maskable"
     },
     {
       "src": "/images/ez_logo960.png",
       "type": "image/png",
-      "sizes": "960x960"
+      "sizes": "960x960",
+      "purpose": "maskable"
     },
     {
       "src": "/images/ez_logo1024.png",
       "type": "image/png",
-      "sizes": "1024x1024"
+      "sizes": "1024x1024",
+      "purpose": "maskable"
     },
     {
       "src": "/images/ez_logo.png",
       "type": "image/png",
-      "sizes": "960x960"
+      "sizes": "960x960",
+      "purpose": "maskable"
+    },
+    {
+      "purpose": "maskable"
     }
   ],
   "start_url": ".",
