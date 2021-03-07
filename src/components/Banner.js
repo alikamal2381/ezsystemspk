@@ -6,12 +6,13 @@ import {
   FaInstagram,
   FaPlay,
 } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+
 const Banner = () => {
   const [state] = React.useState({
-    title: "I am Jonathan Doe",
-    text:
-      "i,m Jonathan, professional web developer with long time experience in this field​",
-    image: "/images/man-01.png",
+    title: "Grow your business with EZ Systems",
+    text: "We are the team of talented developer making websites",
+    image: "/images/grow-business.svg",
   });
   return (
     <header className="header">
@@ -37,20 +38,24 @@ const Banner = () => {
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
                 <div className="header__buttons">
-                  <a href="#" className="btn btn-outline">
+                  <NavLink
+                    to="ez-akportfolio.surge.sh/"
+                    className="btn btn-outline"
+                    target="_blank"
+                  >
                     My Portfolio
-                  </a>
+                  </NavLink>
                   &nbsp;&nbsp;&nbsp;
-                  <a href="#" className="btn btn-smart">
+                  <NavLink to="#" className="btn btn-smart">
                     <FaPlay className="play" />
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-6">
             <div className="banner__img">
-              <img src={state.image} alt="man" />
+              <img src={state.image} alt="main" width="100%" />
             </div>
           </div>
         </div>
