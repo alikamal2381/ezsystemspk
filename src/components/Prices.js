@@ -1,4 +1,5 @@
 import React from "react";
+//import NavLink from "react-router-dom";
 
 const Prices = () => {
   const [header] = React.useState({
@@ -7,6 +8,7 @@ const Prices = () => {
     text:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
   });
+
   const [state] = React.useState([
     {
       id: 1,
@@ -65,9 +67,9 @@ const Prices = () => {
                   <li>{prices.msg5}</li>
                 </ul>
                 <div className="price__btn">
-                  <a href="" className="btn btn-outline">
+                  {/*  <NavLink to="/" className="btn btn-outline">
                     Purchase
-                  </a>
+                  </NavLink> */}
                 </div>
               </div>
             </div>

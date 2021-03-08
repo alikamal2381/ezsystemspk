@@ -7,10 +7,10 @@ const About = () => {
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
   });
   const [state] = React.useState([
-    { id: 1, title: "Name:", text: "Jonathan Doe" },
-    { id: 2, title: "Email:", text: "example@domain.com" },
-    { id: 3, title: "Phone:", text: "+1 023 454 345" },
-    { id: 4, title: "Linkedin", text: "Jonathan_123" },
+    { id: 1, title: "Name:", text: "Ali Kamal" },
+    { id: 2, title: "Email:", text: "alikamal2381@ezsystemspk.com" },
+    { id: 3, title: "Phone:", text: "+92 300 246 5967" },
+    { id: 4, title: "Linkedin", text: "alikamal2381" },
   ]);
   return (
     <div className="about">
